@@ -50,8 +50,15 @@ const nestedMuppet = {
 // Objects
 
 // 7. Use destructuring to assign all variables using the keys as the variable names
+<<<<<<< HEAD
 const {muppetName, color, song, job, partner} = muppet
 
 // 8. Use destructuring to assign songs 2 and 4, and Kermit's job and partner
 const {song2, song4} = nestedMuppet.album.theMuppetMovie
 const {nestedJob, nestedPartner} = nestedMuppet
+=======
+const {nestedNurse, nestedColor, album, nestedJob, nestedPartner} = nestedMuppet
+
+// 8. Use destructuring to assign songs 2 and 4, and Kermit's job and partner
+// const {album{theMuppetMovie[,s2,,s4]}, nestedJob, nestedPartner} = nestedMuppet
+>>>>>>> eb6ddc9ff275fc71bacbacefbef961bf6e5ed559
